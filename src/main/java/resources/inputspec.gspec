@@ -1,0 +1,10 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects
+  Logo                 xpath   //div[@class='brand greenLogo']
+  cart_icon            xpath   //a[@class='cart-icon']
+  search_button        xpath   //button[@class='search-button']
+  cart_info            xpath   //div[@class='cart-info']
+  cart_image           xpath   //a[@class='cart-icon']//img[contains(@class,'')]
+  productsimage-*      xpath   //div[@class="product"]
+ 

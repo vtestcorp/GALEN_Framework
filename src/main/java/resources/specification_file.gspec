@@ -1,0 +1,34 @@
+#Declare objects/ web-elements with css and xpath locators
+@objects
+  # general objects
+  Logo                 xpath   //div[@class='brand greenLogo']
+  cart_icon            xpath   //a[@class='cart-icon']
+  search_button        xpath   //button[@class='search-button']
+  cart_info            xpath   //div[@class='cart-info']
+  cart_image           xpath   //a[@class='cart-icon']//img[contains(@class,'')]
+  productsimage-*      xpath   //div[@class="product"]
+ 
+  
+= Page: Home page =
+  @on desktop_GeneralWebelementAttributes
+      Logo:
+          height 35px
+          width ~125px
+          
+          
+      cart_icon:
+          left-of cart_info -121px
+          height 36px
+          width 32px
+          
+      cart_image:          
+           height 35px
+           width 32px
+           
+      productsimage-*:
+            height 358px
+            width  200px
+            
+ 
+            
+       

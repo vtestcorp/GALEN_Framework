@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Galen_report",
+    "startedAt" : 1586848463033,
+    "endedAt" : 1586848463033,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 67,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 67
+    },
+    "testId" : "1-galen-report",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}
